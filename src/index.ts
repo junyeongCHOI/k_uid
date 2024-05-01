@@ -1,4 +1,4 @@
-function k_uid(prefix = "", length = 10): string {
+function k_uid2(prefix = "", length = 10): string {
   const a = 0xac00,
     z = 0xd7a3,
     r = a - z + 1;
@@ -21,6 +21,6 @@ function k_uid(prefix = "", length = 10): string {
 }
 
 // @ts-ignore
-if (typeof window !== "undefined") window.k_uid = k_uid;
+if (typeof window !== "undefined") window.k_uid2 = k_uid2;
 
-export default k_uid;
+export default k_uid2;

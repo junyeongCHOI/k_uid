@@ -6,7 +6,7 @@
 ## 설치
 
 ```bash
-npm install k_uid
+npm install k_uid2
 ```
 
 ## 사용
